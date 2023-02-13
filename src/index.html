@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value" class="design-screen-atr"></p>
+                </div>
+                <div id="output">
+                    <p id="output-value" class="design-screen-atr"></p>
+                </div>
+            </div>
+            <div class="buttons">
+
+                <button type="button" class=" all-clear operator keys" id="clear">C</button>
+                <button type="button" class="operator keys" id="backspace">CE</button>
+                <button type="button" class="operator keys" id="%">%</button>
+                <button type="button" class="operator keys" id="÷">÷</button>
+
+                <button type="button" id="7" class="keys number">7</button>
+                <button type="button" id="8" class="keys number">8</button>
+                <button type="button" id="9" class="keys number">9</button>
+
+                <button type="button" id="x" class="operator keys">x</button>
+
+                <button type="button" id="4" class="keys number">4</button>
+                <button type="button" id="5" class="keys number">5</button>
+                <button type="button" id="6" class="keys number">6</button>
+
+                <button type="button " id="-" class=" operator keys"> -</button>
+
+                <button type="button" id="1" class="keys number">1</button>
+                <button type="button" id="2" class="keys number">2</button>
+                <button type="button" id="3" class="keys number ">3</button>
+
+                <button class="number keys " id="0">0</button>
+
+                <button type="button" id="00" class="number keys ">00</button>
+
+                <button class="operator keys equal-keys" id="=">=</button>
+
+                <button class="operator keys plus-sign " id="+">+</button>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

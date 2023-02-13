@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    
+    background: linear-gradient(100deg, rgb(52, 166, 178), rgb(31, 41, 42));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: linear-gradient(120deg, #69857d, #1f1d1d);
+    margin: auto;
+    height: 30rem;
+    width: 15rem;
+    border: 0.125rem solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 3px 3px #292727;
+}
+
+#result {
+    height: 40%;
+    width: 13rem;
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.design-screen-atr {
+    text-align: right;
+    padding-right: 0.6rem;
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+}
+#history-value {
+    width: 100%;
+    font-size: 1.3rem;
+    color: rgb(86, 86, 86);
+}
+#output-value {
+    width: 100%;
+    font-size: 1.6rem;
+    color: white;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 0.5rem;
+    margin: 0.6rem auto;
+    margin-top: 0;
+    width: 13rem;
+    height: 60%;
+    position: relative;
+}
+button:hover {
+    transform: scale(1.03);
+    background: linear-gradient(120deg, #6d7673, #221b1b);
+}
+
+.all-clear:hover, .plus-sign:hover {
+    transform: scale(1.03);
+    background: linear-gradient(120deg, #759ebd, #1d71b2);
+}
+
+.keys {
+    font-weight: 500;
+    background: linear-gradient(120deg, #6d7673, #040404);
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    padding: 0.3rem;
+    border: 2px solid #000000;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+}
+#result{
+    background-color: #040404;
+    width: 90%;
+    border-radius: 10px;
+
+}
+.all-clear {
+    background: linear-gradient(120deg, #43a5ec, #2f50679f);
+}
+
+.plus-sign {
+    background: linear-gradient(120deg, #43a5ec, #2f50679f);
+    height: 100%;
+    grid-area: 4 / 4 / 6 / 5;
+}
